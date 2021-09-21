@@ -1,0 +1,13 @@
+apiVersion: kpt.dev/v1
+kind: Kptfile
+metadata:
+  name: simple
+  annotations:
+    blueprints.cloud.google.com/title: Simple Hierarchy blueprint
+upstream:
+  type: git
+  git:
+    repo: https://github.com/GoogleCloudPlatform/blueprints
+    directory: /catalog/hierarchy/simple
+    ref: main
+  updateStrategy: resource-merge

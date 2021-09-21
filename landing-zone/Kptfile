@@ -1,0 +1,11 @@
+apiVersion: kpt.dev/v1
+kind: Kptfile
+metadata:
+  name: landing-zone
+upstream:
+  type: git
+  git:
+    repo: https://github.com/GoogleCloudPlatform/blueprints
+    directory: /catalog/landing-zone
+    ref: main
+  updateStrategy: resource-merge
