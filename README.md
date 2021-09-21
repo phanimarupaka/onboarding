@@ -6,9 +6,12 @@ sample description
 ## Usage
 
 ### Fetch the package
-`kpt pkg get https://github.com/phanimarupaka/onboarding.git`
+`git clone https://github.com/phanimarupaka/onboarding.git`
 
 `cd onboarding`
+
+### Update package to fetch remote subpackages
+`kpt pkg update`
 
 ### View package content
 `kpt pkg tree`
