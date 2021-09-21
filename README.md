@@ -11,7 +11,7 @@ sample description
 `cd onboarding`
 
 ### Update package to fetch remote subpackages
-`kpt pkg update onboarding`
+`kpt pkg update landing-zone`
 
 ### View package content
 `kpt pkg tree`
