@@ -8,7 +8,7 @@ sample description
 ### Fetch the package
 `kpt pkg get https://github.com/phanimarupaka/onboarding.git`
 
-cd onboarding
+`cd onboarding`
 
 ### View package content
 `kpt pkg tree`
